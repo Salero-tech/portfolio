@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { pos, movePosBy } from '$lib/components/map/position.svelte';
+    import { pos, movePosBy } from '$lib/position.svelte';
 </script>
 
 

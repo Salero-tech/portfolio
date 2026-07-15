@@ -1,7 +1,7 @@
 <script>
-    import Board from './board.svelte';
+    import PCB from '$lib/PCB/PCB.svelte';
     import Hud from './hud.svelte';
-    import { pos, movePosBy } from './position.svelte.ts';
+    import { pos, movePosBy } from '$lib/position.svelte';
 
 
   // Wheel/trackpad: treat ANY scroll direction (vertical or horizontal)
@@ -59,7 +59,7 @@
   ontouchend={touchEnd}
 >
   <div class="camera" style="transform: translate({tx}px, {ty}px) scale({scale})">
-  <Board />
+  <PCB />
   </div>
   <Hud />
 </div>

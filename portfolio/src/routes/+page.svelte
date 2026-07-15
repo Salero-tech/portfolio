@@ -1,9 +1,10 @@
 <script lang="ts">
-    import Map from '$lib/components/map.svelte';
-    import Hud from '$lib/components/map/hud.svelte';
-    import Viewport from '$lib/components/map/viewport.svelte';
+    
+    import PCB from '$lib/PCB/PCB.svelte';
+    import Viewport from '$lib/Viewport.svelte';
+
 </script>
 
 
 
-<Viewport />
+<PCB />
