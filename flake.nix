@@ -13,6 +13,9 @@
           platformio
           avrdude
           python312
+
+          #web
+          nodejs
         ];
       };
     };
